@@ -4,17 +4,17 @@
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                println "Building ${Build}.."
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                println "Testing ${Test}.."
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                println "Deploying ${Deploy}.."
             }
         }
     }
