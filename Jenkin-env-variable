@@ -1,0 +1,22 @@
+pipeline {
+  agent any 
+  environment {
+    JAVA_PATH = "/opt/bin/java17"
+  }
+  stages{
+    stage('working with variables') 
+{
+      steps {
+        script {
+        Idno = 1
+          course = "Jenkins scriptingg"
+          println "My ID no is ${IDno}, My Course topic is ${course}"
+          println "My workspace is ${WORKSPACE}"
+          println "My java path is ${env.JAVA_PATH}"
+          
+        }
+      }
+    }
+  }
+}
+    
