@@ -7,7 +7,7 @@ agent any
         script {
           idno = 1
           course = "Jenkins Scripting"
-          println "my ID # is ${idno},my current Course is: ${course}"
+          println "my ID number is ${idno},my current Course is: ${course}"
         }
       }
     }
