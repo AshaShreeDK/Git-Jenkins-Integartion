@@ -4,9 +4,9 @@ any
     stage('working with variables') {
       steps {
         script {
-          id no = 1
+          idno = 1
           course = "Jenkins Scripting"
-          println "my ID # is ${id no},my current Course is: ${course}"
+          println "my ID # is ${idno},my current Course is: ${course}"
         }
       }
     }
