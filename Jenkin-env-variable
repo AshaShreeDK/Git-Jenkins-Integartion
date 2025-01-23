@@ -1,8 +1,8 @@
 pipeline {
   agent any 
-  environment {
-    JAVA_PATH = "/opt/bin/java11"
-  }
+-  environment {
+   - JAVA_PATH = "/opt/bin/java11"
+-  }
   stages{
     stage('working with variables') 
 {
@@ -12,7 +12,7 @@ pipeline {
           course = "Jenkins scriptingg"
           println "My ID no is ${IDno}, My Course topic is ${course}"
           println "My workspace is ${WORKSPACE}"
-          println "My java path is ${env.JAVA_PATH}"
+        -  println "My java path is ${env.JAVA_PATH}"
           
         }
       }
