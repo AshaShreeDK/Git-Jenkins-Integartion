@@ -1,7 +1,7 @@
 pipeline {
   agent any 
   environment {
-    JAVA_PATH = "/opt/bin/java17"
+    JAVA_PATH = "/opt/bin/java11"
   }
   stages{
     stage('working with variables') 
