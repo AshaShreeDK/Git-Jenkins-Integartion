@@ -1,0 +1,13 @@
+  agent any 
+  stages{
+    stage('working with variables') {
+      steps {
+        script {
+          id no = 1
+          course = "Jenkins Scripting"
+          println "my batch no is ${id no},my current topic is ${course}"
+        }
+      }
+    }
+  }
+}
