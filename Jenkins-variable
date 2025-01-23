@@ -1,0 +1,15 @@
+pipeline
+{
+agent any 
+  stages{
+    stage('working with variables') {
+      steps {
+        script {
+          idno = 1
+          course = "Jenkins Scripting"
+          println "My ID number is : ${idno} , My Course is: ${course}"
+        }
+      }
+    }
+  }
+}
