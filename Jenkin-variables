@@ -5,7 +5,7 @@
         script {
           id no = 1
           course = "Jenkins Scripting"
-          println "my batch no is ${id no},my current topic is ${course}"
+          println "my ID # is ${id no},my current Course is: ${course}"
         }
       }
     }
