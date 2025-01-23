@@ -1,0 +1,19 @@
+pipeline
+{
+  agent any 
+  stages
+  {
+    stage('Its a first Jenkins') 
+    {
+      steps 
+      {
+        script 
+        {
+          println "Welcome to Jenkins Pipeline"
+        
+          }
+        }
+      }
+    }
+  }
+}
